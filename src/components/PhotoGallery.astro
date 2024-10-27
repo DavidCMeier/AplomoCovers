@@ -6,8 +6,9 @@ interface Props {
 
 const { columns = 3, maxRows = 2 } = Astro.props;
 
-// Importar todas las imágenes de la carpeta public/gallery
-const images = await Astro.glob('/public/gallery/*.(jpg|jpeg|png|gif|webp)');
+// Importar todas las imágenes usando el sistema de assets de Astro
+const images = await Astro.glob('/src/assets/gallery/*.(jpg|jpeg|png|gif|webp)');
+const processedImages = images.map(image => image.default);
 ---
 
 <div class="gallery-container">
@@ -25,13 +26,15 @@ const images = await Astro.glob('/public/gallery/*.(jpg|jpeg|png|gif|webp)');
   
   <div class="photo-gallery" id="photoGallery">
     <div class="gallery-track">
-      {images.map((image, index) => (
+      {processedImages.map((image, index) => (
         <div 
           class="gallery-item" 
           data-index={index}
         >
           <img 
-            src={`/gallery/${image.default.src.split('/').pop()}`}
+            src={image.src}
+            width={image.width}
+            height={image.height}
             alt=""
             loading={index < (columns * maxRows) ? "eager" : "lazy"}
             class="gallery-image"
@@ -46,9 +49,11 @@ const images = await Astro.glob('/public/gallery/*.(jpg|jpeg|png|gif|webp)');
     <button class="lightbox-nav prev" aria-label="Previous image">&lt;</button>
     <button class="lightbox-nav next" aria-label="Next image">&gt;</button>
     <div class="lightbox-content">
-      {images.map((image) => (
+      {processedImages.map((image) => (
         <img 
-          src={`/gallery/${image.default.src.split('/').pop()}`}
+          src={image.src}
+          width={image.width}
+          height={image.height}
           alt=""
           loading="lazy"
           class="lightbox-image"
@@ -58,7 +63,7 @@ const images = await Astro.glob('/public/gallery/*.(jpg|jpeg|png|gif|webp)');
   </div>
 </div>
 
-<script define:vars={{ maxRows }}>
+<script define:vars={{ maxRows, totalImages: processedImages.length }}>
   // Gallery navigation functionality
   const gallery = document.getElementById('photoGallery');
   const track = gallery.querySelector('.gallery-track');
@@ -98,13 +103,13 @@ const images = await Astro.glob('/public/gallery/*.(jpg|jpeg|png|gif|webp)');
   }
 
   function updateNavButtons() {
-    const totalPages = Math.ceil(items.length / imagesPerPage);
+    const totalPages = Math.ceil(totalImages / imagesPerPage);
     galleryNavPrev.style.display = currentPage > 0 ? 'flex' : 'none';
     galleryNavNext.style.display = currentPage < totalPages - 1 ? 'flex' : 'none';
   }
 
   function navigateGallery(direction) {
-    const totalPages = Math.ceil(items.length / imagesPerPage);
+    const totalPages = Math.ceil(totalImages / imagesPerPage);
     currentPage = Math.max(0, Math.min(totalPages - 1, currentPage + direction));
     updateGalleryVisibility();
     updateNavButtons();
@@ -129,7 +134,7 @@ const images = await Astro.glob('/public/gallery/*.(jpg|jpeg|png|gif|webp)');
       
       if (oldColumns !== newColumns) {
         // Adjust currentPage if needed
-        const totalPages = Math.ceil(items.length / imagesPerPage);
+        const totalPages = Math.ceil(totalImages / imagesPerPage);
         currentPage = Math.min(currentPage, totalPages - 1);
         updateGalleryVisibility();
         updateNavButtons();
@@ -144,7 +149,6 @@ const images = await Astro.glob('/public/gallery/*.(jpg|jpeg|png|gif|webp)');
   let currentIndex = 0;
   const lightbox = document.getElementById('lightbox');
   const lightboxImages = document.querySelectorAll('.lightbox-image');
-  const totalImages = items.length;
 
   function showImage(index) {
     currentIndex = index;
