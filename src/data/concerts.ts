@@ -8,21 +8,27 @@ export interface Concert {
 
 export const concerts: Concert[] = [
   {
-    date: "2024-11-15",
-    venue: "Sala Caracol",
-    city: "Madrid",
+    date: "2024-12-06",
+    venue: "Cofradía de Macael",
+    city: "Macael, Almería",
     ticketsAvailable: false,
   },
   {
-    date: "2024-06-01",
-    venue: "Sala Moon",
-    city: "Valencia",
+    date: "2025-01-25",
+    venue: "Moradores",
+    city: "Tijola, Almería",
     ticketsAvailable: false,
   },
   {
-    date: "2024-06-22",
-    venue: "La Riviera",
-    city: "Madrid",
+    date: "2025-01-31",
+    venue: "Cafe bar Pasarela",
+    city: "Águilas, Murcia",
+    ticketsAvailable: false
+  },
+  {
+    date: "2025-04-25",
+    venue: "Concierto Solidario",
+    city: "Macael, Almería",
     ticketsAvailable: false
   }
 ];
