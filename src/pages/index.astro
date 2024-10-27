@@ -5,6 +5,7 @@ import BandMember from '../components/BandMember.astro';
 import ConcertList from '../components/ConcertList.astro';
 import SocialLinks from '../components/SocialLinks.astro';
 import { bandMembers } from '../data/bandMembers';
+import PhotoGallery from '../components/PhotoGallery.astro';
 ---
 
 <Layout title="aPlomo - Rock Español">
@@ -50,6 +51,14 @@ import { bandMembers } from '../data/bandMembers';
       <div class="container mx-auto px-4">
         <h2 class="text-5xl font-bold text-center text-white mb-12">Próximos Conciertos</h2>
         <ConcertList />
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galería" class="py-20 bg-gradient-to-b from-black to-band-primary">
+      <div class="container mx-auto px-4">
+        <h2 class="text-5xl font-bold text-center text-white mb-12">Galería de fotos</h2>
+        <PhotoGallery />
       </div>
     </section>
 

@@ -1,0 +1,68 @@
+---
+interface Props {
+  columns?: number;
+}
+
+const { columns = 3 } = Astro.props;
+
+// Importar todas las imágenes de la carpeta public/gallery
+const images = await Astro.glob('/public/gallery/*.(jpg|jpeg|png|gif|webp)')
+console.log(images)
+---
+
+<div class="photo-gallery">
+  {
+  images.map((image) => (
+    <div class="gallery-item">
+      <img 
+        src={`/gallery/${image.default.src.split('/').pop()}`}
+        alt=""
+        loading="lazy"
+        class="gallery-image"
+      />
+    </div>
+  ))}
+</div>
+
+<style define:vars={{ columns }}>
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .gallery-item {
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    aspect-ratio: 1;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-item:hover {
+    transform: scale(1.02);
+  }
+
+  .gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  @media (max-width: 1024px) {
+    .photo-gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .photo-gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
