@@ -1,0 +1,83 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import BandMember from '../components/BandMember.astro';
+import ConcertList from '../components/ConcertList.astro';
+import SocialLinks from '../components/SocialLinks.astro';
+import { bandMembers } from '../data/bandMembers';
+---
+
+<Layout title="aPlomo - Rock Español">
+  <Header />
+  
+  <main class="pt-16">
+    <!-- Hero Section -->
+    <section id="inicio" class="relative min-h-screen flex items-center justify-center text-white p-4">
+      <div class="absolute inset-0 bg-hero-pattern bg-cover bg-center bg-no-repeat">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/70 to-band-primary/90"></div>
+      </div>
+      <div class="container mx-auto text-center relative z-10">
+        <div class="max-w-[400px] mx-auto mb-8">
+          <img 
+            src="/images/logo.png" 
+            alt="aPlomo Logo" 
+            class="w-full h-auto object-contain"
+          />
+        </div>
+        <p class="max-w-2xl mx-auto text-lg md:text-xl leading-relaxed mb-4">
+          aPlomo nació a finales de 2021 de la ilusión compartida por cuatro amigos que no querían dejar morir la música en directo. La banda interpreta covers inspirados en el pop-rock español de los años 80 y 90, recreando grandes éxitos de la movida con un estilo propio y marcadamente rockero, que aporta nueva energía a cada tema.
+        </p>
+        <p class="max-w-2xl mx-auto text-lg md:text-xl leading-relaxed">
+          Con una dedicación constante a la calidad y al detalle en cada presentación, aPlomo ha ganado experiencia y madurez en el escenario. En 2023, con casi 40 conciertos realizados, el grupo ha consolidado su propuesta, sumando ganas de seguir creciendo y compartiendo su pasión por la música en directo.
+        </p>
+      </div>
+    </section>
+
+    <!-- Band Members Section -->
+    <section id="banda" class="py-20 bg-gradient-to-b from-band-primary to-black">
+      <div class="container mx-auto px-4">
+        <h2 class="text-5xl font-bold text-center text-white mb-12">La Banda</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {bandMembers.map(member => (
+            <BandMember member={member} />
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Concerts Section -->
+    <section id="conciertos" class="py-20 bg-gradient-to-b from-black to-band-primary">
+      <div class="container mx-auto px-4">
+        <h2 class="text-5xl font-bold text-center text-white mb-12">Próximos Conciertos</h2>
+        <ConcertList />
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-20 bg-gradient-to-b from-band-primary to-black text-white">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-5xl font-bold mb-12">Contacto</h2>
+        <p class="text-xl mb-8">
+          Síguenos en redes sociales y mantente al día de todas nuestras novedades
+        </p>
+        <SocialLinks />
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-black text-white py-6 border-t border-white/10">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; {new Date().getFullYear()} aPlomo. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</Layout>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .bg-hero-pattern {
+    background-image: url('/images/hero-bg.jpg');
+  }
+</style>

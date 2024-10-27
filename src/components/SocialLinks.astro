@@ -1,0 +1,17 @@
+---
+import { Icon } from 'astro-icon/components';
+import { socialMedia } from '../data/socialMedia';
+---
+<div class="flex gap-8 justify-center">
+  {socialMedia.map(social => (
+    <a
+      href={social.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-white hover:text-band-secondary transition-all duration-300 transform hover:scale-110"
+    >
+      <Icon name={social.icon} class="w-12 h-12" />
+      <span class="sr-only">{social.name}</span>
+    </a>
+  ))}
+</div>
