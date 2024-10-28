@@ -9,25 +9,25 @@ export const bandMembers: BandMember[] = [
   {
     name: "Juan Nigrum",
     role: "Vocalista",
-    description: "Antiguo cantante de “La Skala de Richter” y actualmente vocalista de la banda metal Anhedonia, sorprende verlo en cualquier registro, desde el flamenco más profundo hasta el pop rock ",
+    description: "Juan Nigrum es el carismático vocalista de nuestro grupo de rock, conocido por su gran versatilidad y potencia vocal. Con una trayectoria marcada por su paso como cantante principal de “La Skala de Richter” y su actual trabajo con la banda de metal Anhedonia, Juan trae consigo una mezcla de experiencia y pasión que se refleja en cada actuación. Su capacidad para moverse entre géneros como el flamenco, el metal y el pop rock lo convierte en una de las voces más sorprendentes y emocionantes del panorama musical actual, siempre aportando una energía única sobre el escenario.",
     image: "/images/singer.jpg"
   },
   {
     name: "José Lamarca",
     role: "Guitarrista",
-    description: "Desde muy joven se consideró un enamorado del Rock&roll y del sonido vintage más auténtico, pasando por ACDC y llegando al rock de “Los Zigarros”. Tiene claro que, combinado con el olor a válvula ardiendo, el sonido de un Marshall crujiente y una strato de la época, dan vida a esa etapa ochentera que tanto nos marcó. De hecho, también forma parte de “Demure”.",
+    description: "José Lamarca es el guitarrista principal de nuestro grupo, y su pasión por el rock & roll y el sonido vintage se siente en cada nota que toca. Desde temprana edad, José se enamoró de bandas como ACDC, desarrollando un estilo que refleja la esencia del rock más puro y auténtico. Su predilección por un Marshall crujiente, una Stratocaster clásica y el olor a válvulas ardiendo lo conectan directamente con el espíritu de la música de los 80, un sonido que evoca recuerdos inolvidables. Además de nuestro grupo, también es miembro de la banda “Demure”, aportando su característica energía a cada proyecto.",
     image: "/images/guitarist.jpg"
   },
   {
     name: "David Meier",
     role: "Bajista",
-    description: "David se incorporó al grupo en 2023.Siempre ha estado muy relacionado con la música y con solo verlo tocar sabes la experiencia que lleva consigo. Actualmente, también trabaja con “Demure”, un trio de Jazz y forma parte de la misma Big Band que Cholo. Amante de la variedad musical, de igual forma sabe colgarse la guitarra y hacerla sonar.",
+    description: "David Meier, nuestro talentoso bajista, se unió al grupo en 2023, trayendo consigo una vasta experiencia y una conexión profunda con la música. Con solo verlo tocar, queda claro que su habilidad y dominio del instrumento vienen de años de dedicación. David también es miembro de “Ada's trio Jazz band”, “Demure” y forma parte de la misma Big Band MA de Fines, mostrando su versatilidad como músico. Su amor por la variedad musical lo lleva a explorar distintos géneros y, además del bajo, sabe tomar la guitarra y hacerla sonar con la misma pasión y destreza.",
     image: "/images/bassist.jpg"
   },
   {
     name: "Xolo",
     role: "Baterista",
-    description: "Aunque no os lo creáis, Cholo empezó desde muy pequeño con el Bajo. De hecho, en su adolescencia formó parte de un grupo de Metal de Macael llamado “Devil Kam” con el cual tuvo la suerte de grabar una maqueta y ser uno de los finalistas del concurso de maquetas del programa de radio y web “Belladurmiente”. Muy pegado a Pepe desde pequeño, sus gustos musicales son muy parecidos, aunque tiene claro que en la variedad esta la sabiduría. Ama el Funk y el Metal, pero no descarta el Blues ni el Jazz.",
+    description: "Xolo, nuestro baterista, comenzó su viaje musical con el bajo cuando era muy pequeño. En su adolescencia, fue miembro de la banda de metal “Devil Kam” de Macael, con quienes tuvo la oportunidad de grabar una maqueta y llegar a ser finalista del concurso de maquetas del programa de radio y web “Belladurmiente”. Muy cercano a Pepe desde joven, Xolo comparte muchos de sus gustos musicales, siempre valorando la variedad como una fuente de sabiduría. Aunque ama el funk y el metal, no deja de lado el blues ni el jazz, lo que lo convierte en un músico versátil y apasionado.",
     image: "/images/drummer.jpg"
   }
 ];

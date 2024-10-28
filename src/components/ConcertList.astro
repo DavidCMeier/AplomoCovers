@@ -1,54 +1,18 @@
 ---
 import { concerts } from '../data/concerts';
-import { format, isFuture, parseISO } from 'date-fns';
-import { es } from 'date-fns/locale';
+import { isFuture, parseISO } from 'date-fns';
+import Concert from './Concert.astro';
 import { Icon } from 'astro-icon/components';
+
 
 const futureConcerts = concerts
   .filter(concert => isFuture(parseISO(concert.date)))
   .sort((a, b) => parseISO(a.date).getTime() - parseISO(b.date).getTime());
 ---
 <div class="grid gap-4 max-w-3xl mx-auto">
-  {futureConcerts.map(concert => (
-    <div class="group bg-gradient-to-r from-black/60 to-black/40 backdrop-blur-sm rounded-lg overflow-hidden border border-white/10 hover:border-band-secondary/50 transition-all duration-300">
-      <div class="flex items-center p-4 sm:p-5">
-        <div class="flex-shrink-0 w-16 sm:w-20 h-16 sm:h-20 bg-band-secondary rounded-lg mr-4 sm:mr-6 flex flex-col items-center justify-center text-white">
-          <span class="text-2xl sm:text-3xl font-bold">
-            {format(parseISO(concert.date), "d", { locale: es })}
-          </span>
-          <span class="text-xs sm:text-sm uppercase">
-            {format(parseISO(concert.date), "MMM", { locale: es })}
-          </span>
-        </div>
-        
-        <div class="flex-grow">
-          <h3 class="text-xl sm:text-2xl font-bold text-white group-hover:text-band-secondary transition-colors duration-300">
-            {concert.venue}
-          </h3>
-          <div class="flex items-center text-gray-300 mt-1">
-            <Icon name="mdi:map-marker" class="w-4 h-4 mr-1" />
-            <span>{concert.city}</span>
-          </div>
-        </div>
-
-        {concert.ticketsAvailable && (
-          <div class="flex-shrink-0 ml-4">
-            <a
-              href={concert.ticketLink}
-              class="inline-flex items-center bg-band-secondary text-white px-4 py-2 rounded-full hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg text-sm sm:text-base"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icon name="mdi:ticket" class="w-4 h-4 mr-2" />
-              Entradas
-            </a>
-          </div>
-        )}
-      </div>
-    </div>
-  ))}
-
-  {futureConcerts.length === 0 && (
+  {futureConcerts.length > 0 ? (
+    futureConcerts.map(concert => <Concert concert={concert} />)
+  ) : (
     <div class="text-center py-8 text-gray-400">
       <Icon name="mdi:calendar-blank" class="w-16 h-16 mx-auto mb-4 opacity-50" />
       <p class="text-xl">No hay conciertos programados en este momento</p>

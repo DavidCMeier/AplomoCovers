@@ -1,0 +1,205 @@
+---
+interface Props {
+  class?: string;
+}
+
+const { class: className = '' } = Astro.props;
+---
+
+<form id="contactForm" class:list={["contact-form", className]} netlify>
+  <div class="form-group">
+    <label for="name">Nombre <span class="required">*</span></label>
+    <input 
+      type="text" 
+      id="name" 
+      name="name" 
+      required 
+      minlength="2"
+      placeholder="Tu nombre"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="email">Correo electrónico <span class="required">*</span></label>
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      required
+      placeholder="tu@email.com"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="phone">Teléfono <span class="optional">(opcional)</span></label>
+    <input 
+      type="tel" 
+      id="phone" 
+      name="phone"
+      placeholder="123 456 789"
+      pattern="[0-9\s\-\+\(\)]*"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="message">Mensaje <span class="required">*</span></label>
+    <textarea 
+      id="message" 
+      name="message" 
+      required 
+      minlength="10"
+      rows="4"
+      placeholder="Escribe tu mensaje aquí..."
+    ></textarea>
+  </div>
+
+  <div class="form-status" aria-live="polite"></div>
+
+  <button type="submit" class="submit-button">
+    Enviar mensaje
+  </button>
+</form>
+
+<script>
+  const form = document.getElementById('contactForm') as HTMLFormElement;
+  const statusDiv = form.querySelector('.form-status') as HTMLDivElement;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    // Reset status
+    statusDiv.textContent = '';
+    statusDiv.className = 'form-status';
+
+    // Basic validation
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+      // Aquí normalmente enviarías los datos a tu backend
+      // Por ahora solo simulamos el envío
+      await new Promise(resolve => setTimeout(resolve, 1000));
+
+      // Simular éxito
+      statusDiv.textContent = '¡Mensaje enviado con éxito!';
+      statusDiv.classList.add('success');
+      form.reset();
+
+    } catch (error) {
+      statusDiv.textContent = 'Hubo un error al enviar el mensaje. Por favor, intenta nuevamente.';
+      statusDiv.classList.add('error');
+    }
+  });
+</script>
+
+<style>
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+
+  .required {
+    color: #ff6b6b;
+  }
+
+  .optional {
+    color: #868e96;
+    font-size: 0.8rem;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: rgb(var(--accent-light));
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 2px rgba(var(--accent-light), 0.2);
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  .submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(var(--accent));
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .submit-button:hover {
+    background: rgb(var(--accent-dark));
+    transform: translateY(-1px);
+  }
+
+  .submit-button:active {
+    transform: translateY(0);
+  }
+
+  .form-status {
+    margin: 1rem 0;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+    display: none;
+  }
+
+  .form-status.success {
+    display: block;
+    background: rgba(40, 167, 69, 0.1);
+    border: 1px solid rgba(40, 167, 69, 0.2);
+    color: #2ecc71;
+  }
+
+  .form-status.error {
+    display: block;
+    background: rgba(220, 53, 69, 0.1);
+    border: 1px solid rgba(220, 53, 69, 0.2);
+    color: #ff6b6b;
+  }
+
+  @media (max-width: 640px) {
+    .contact-form {
+      padding: 1.5rem;
+    }
+  }
+</style>

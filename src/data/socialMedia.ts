@@ -11,6 +11,11 @@ export const socialMedia: SocialMedia[] = [
     icon: "mdi:instagram"
   },
   {
+    name: "Facebook",
+    url: "https://www.facebook.com/people/APlomo-Covers/",
+    icon: "mdi:facebook"
+  },
+  {
     name: "WhatsApp",
     url: "https://wa.me/34680260411",
     icon: "mdi:whatsapp"

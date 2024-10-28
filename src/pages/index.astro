@@ -6,6 +6,7 @@ import ConcertList from '../components/ConcertList.astro';
 import SocialLinks from '../components/SocialLinks.astro';
 import { bandMembers } from '../data/bandMembers';
 import PhotoGallery from '../components/PhotoGallery.astro';
+import Contact from '../components/Contact.astro';
 ---
 
 <Layout title="aPlomo - Rock Español">
@@ -62,14 +63,25 @@ import PhotoGallery from '../components/PhotoGallery.astro';
       </div>
     </section>
 
+    <!-- RRSS Section -->
+    <section id="redessociales" class="py-20 bg-gradient-to-b from-band-primary to-black text-white">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-5xl font-bold mb-12">Redes sociales</h2>
+        <p class="text-xl mb-8">
+          Síguenos en redes sociales y mantente al día de todas nuestras novedades
+        </p>
+        <SocialLinks />
+      </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contacto" class="py-20 bg-gradient-to-b from-band-primary to-black text-white">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-5xl font-bold mb-12">Contacto</h2>
         <p class="text-xl mb-8">
-          Síguenos en redes sociales y mantente al día de todas nuestras novedades
+          ¿Tienes alguna pregunta? ¿Contrataciones? ¡Escríbenos!
         </p>
-        <SocialLinks />
+        <Contact />
       </div>
     </section>
   </main>
