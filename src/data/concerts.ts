@@ -10,11 +10,26 @@ export interface Concert {
 
 export const concerts: Concert[] = [
   {
+    name: "Almería tiene norte",
+    date: "2024-12-01",
+    map: "https://maps.app.goo.gl/t6bNEwK8zFYMdc4s9",
+    venue: "Plaza del ayuntamiento",
+    city: "Macael, Almería",
+    ticketsAvailable: false,
+  },
+  {
     name: "Concierto Cofradía de Macael",
     date: "2024-12-06",
     map: "https://maps.app.goo.gl/McHb7LTWBshmFJFU8",
     venue: "El Vaticano, Carpa municipal",
     city: "Macael, Almería",
+    ticketsAvailable: false,
+  },
+  {
+    date: "2024-12-20",
+    map: "https://maps.app.goo.gl/ktm74kkK88z4Vxcn6",
+    venue: "La oveja",
+    city: "Albox, Almería",
     ticketsAvailable: false,
   },
   {

@@ -15,13 +15,13 @@ export const bandMembers: BandMember[] = [
   {
     name: "José Lamarca",
     role: "Guitarrista",
-    description: "José Lamarca es el guitarrista principal de nuestro grupo, y su pasión por el rock & roll y el sonido vintage se siente en cada nota que toca. Desde temprana edad, José se enamoró de bandas como ACDC, desarrollando un estilo que refleja la esencia del rock más puro y auténtico. Su predilección por un Marshall crujiente, una Stratocaster clásica y el olor a válvulas ardiendo lo conectan directamente con el espíritu de la música de los 80, un sonido que evoca recuerdos inolvidables. Además de nuestro grupo, también es miembro de la banda “Demure”, aportando su característica energía a cada proyecto.",
+    description: "José Lamarca es el guitarrista de nuestro grupo, y su pasión por el rock & roll y el sonido vintage se siente en cada nota que toca. Desde temprana edad, José se enamoró de bandas como ACDC, desarrollando un estilo que refleja la esencia del rock más puro y auténtico. Su predilección por un Marshall crujiente, una Stratocaster clásica y el olor a válvulas ardiendo lo conectan directamente con el espíritu de la música de los 80, un sonido que evoca recuerdos inolvidables. Además de nuestro grupo, también es miembro de la banda “Demure”, aportando su característica energía a cada proyecto.",
     image: "/images/guitarist.jpg"
   },
   {
     name: "David Meier",
     role: "Bajista",
-    description: "David Meier, nuestro talentoso bajista, se unió al grupo en 2023, trayendo consigo una vasta experiencia y una conexión profunda con la música. Con solo verlo tocar, queda claro que su habilidad y dominio del instrumento vienen de años de dedicación. David también es miembro de “Ada's trio Jazz band”, “Demure” y forma parte de la misma Big Band MA de Fines, mostrando su versatilidad como músico. Su amor por la variedad musical lo lleva a explorar distintos géneros y, además del bajo, sabe tomar la guitarra y hacerla sonar con la misma pasión y destreza.",
+    description: "David Meier, nuestro talentoso bajista, se unió al grupo en 2023, trayendo consigo una vasta experiencia y una conexión profunda con la música. Con solo verlo tocar, queda claro que su habilidad y dominio del instrumento vienen de años de dedicación. David también es miembro de “Ada's trio Jazz band”, “Demure” y forma parte de la Big Band MA de Fines, mostrando su versatilidad como músico. Su amor por la variedad musical lo lleva a explorar distintos géneros y, además del bajo, sabe tomar la guitarra y hacerla sonar con la misma pasión y destreza.",
     image: "/images/bassist.jpg"
   },
   {
