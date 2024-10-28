@@ -13,8 +13,8 @@ export const concerts: Concert[] = [
     name: "Almería tiene norte",
     date: "2024-12-01",
     map: "https://maps.app.goo.gl/t6bNEwK8zFYMdc4s9",
-    venue: "Plaza del ayuntamiento",
-    city: "Macael, Almería",
+    venue: "Plaza del ayuntamiento de Fines",
+    city: "Fines, Almería",
     ticketsAvailable: false,
   },
   {
