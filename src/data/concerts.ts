@@ -18,14 +18,6 @@ export const concerts: Concert[] = [
     ticketsAvailable: false,
   },
   {
-    name: "Concierto Cofradía de Macael",
-    date: "2024-12-06",
-    map: "https://maps.app.goo.gl/McHb7LTWBshmFJFU8",
-    venue: "El Vaticano, Carpa municipal",
-    city: "Macael, Almería",
-    ticketsAvailable: false,
-  },
-  {
     date: "2024-12-20",
     map: "https://maps.app.goo.gl/ktm74kkK88z4Vxcn6",
     venue: "La oveja",
