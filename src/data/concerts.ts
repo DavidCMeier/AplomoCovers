@@ -44,5 +44,12 @@ export const concerts: Concert[] = [
     map: "https://maps.app.goo.gl/McHb7LTWBshmFJFU8",
     city: "Macael, Almería",
     ticketsAvailable: false
+  },
+  {
+    date: "2025-04-17",
+    venue: "Heaven",
+    map: "https://maps.app.goo.gl/n6aYT56C79dC4TuR9",
+    city: "Albox, Almería",
+    ticketsAvailable: false
   }
 ];
