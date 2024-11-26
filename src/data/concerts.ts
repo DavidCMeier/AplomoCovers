@@ -25,6 +25,13 @@ export const concerts: Concert[] = [
     ticketsAvailable: false,
   },
   {
+    date: "2024-12-21",
+    map: "https://maps.app.goo.gl/s54qcKBMBQ358JGC9",
+    venue: "Pub La Jaima",
+    city: "Olula del Río, Almería",
+    ticketsAvailable: false,
+  },
+  {
     date: "2025-01-25",
     venue: "Concentración motera - Moradores",
     city: "Bacares, Almería",
