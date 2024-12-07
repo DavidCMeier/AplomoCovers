@@ -17,6 +17,13 @@ export const concerts: Concert[] = [
     city: "Fines, Almería",
     ticketsAvailable: false,
   },
+{
+    date: "2024-12-14",
+    map: "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
+    venue: "Hola Ola",
+    city: "Mojacar, Almería",
+    ticketsAvailable: false,
+  },
   {
     date: "2024-12-20",
     map: "https://maps.app.goo.gl/ktm74kkK88z4Vxcn6",
