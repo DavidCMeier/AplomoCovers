@@ -10,7 +10,7 @@ export interface Concert {
 
 export const concerts: Concert[] = [
   {
-    name: "Fiesta Privado",
+    name: "Fiesta Privada",
     date: "2025-02-08",
     map: "https://maps.app.goo.gl/t6bNEwK8zFYMdc4s9",
     venue: "",
