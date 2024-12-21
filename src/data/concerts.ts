@@ -12,13 +12,13 @@ export const concerts: Concert[] = [
   {
     name: "Fiesta Privada",
     date: "2025-02-08",
-    map: "https://maps.app.goo.gl/t6bNEwK8zFYMdc4s9",
+    map: "",
     venue: "",
     city: "Albox, Almería",
     ticketsAvailable: false,
   },{
     date: "2025-01-04",
-    map: "https://maps.app.goo.gl/t6bNEwK8zFYMdc4s9",
+    map: "https://maps.app.goo.gl/KQyXez3UhVv5BXSK8",
     venue: "Alexandra Coffee",
     city: "Olula del Río, Almería",
     ticketsAvailable: false,
