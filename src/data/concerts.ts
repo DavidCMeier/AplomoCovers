@@ -10,6 +10,19 @@ export interface Concert {
 
 export const concerts: Concert[] = [
   {
+    name: "Fiesta Privado",
+    date: "2025-02-08",
+    map: "https://maps.app.goo.gl/t6bNEwK8zFYMdc4s9",
+    venue: "",
+    city: "Albox, Almería",
+    ticketsAvailable: false,
+  },{
+    date: "2025-01-04",
+    map: "https://maps.app.goo.gl/t6bNEwK8zFYMdc4s9",
+    venue: "Alexandra Coffee",
+    city: "Olula del Río, Almería",
+    ticketsAvailable: false,
+  },{
     name: "Almería tiene norte",
     date: "2024-12-01",
     map: "https://maps.app.goo.gl/t6bNEwK8zFYMdc4s9",
