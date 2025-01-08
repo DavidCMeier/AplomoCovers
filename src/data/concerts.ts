@@ -9,6 +9,13 @@ export interface Concert {
 }
 
 export const concerts: Concert[] = [
+{
+    date: "2025-02-15",
+    map: "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
+    venue: "Hola Ola",
+    city: "Mojacar, Almería",
+    ticketsAvailable: false,
+  },
   {
     name: "Fiesta Privada",
     date: "2025-02-08",
