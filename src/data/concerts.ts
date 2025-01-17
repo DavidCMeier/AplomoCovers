@@ -10,6 +10,12 @@ export interface Concert {
 
 export const concerts: Concert[] = [
 {
+    date: "2025-05-04",
+    venue: "Evento Privado",
+    city: "Olula del Río, Almería",
+    ticketsAvailable: false,
+  },
+{
     date: "2025-02-15",
     map: "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
     venue: "Hola Ola",
