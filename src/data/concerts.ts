@@ -10,8 +10,10 @@ export interface Concert {
 
 export const concerts: Concert[] = [
 {
+    name: "Fiesta Privada",
     date: "2025-05-04",
-    venue: "Evento Privado",
+    map: "",
+    venue: "",
     city: "Olula del Río, Almería",
     ticketsAvailable: false,
   },
