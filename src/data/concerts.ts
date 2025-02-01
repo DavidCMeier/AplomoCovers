@@ -10,6 +10,13 @@ export interface Concert {
 
 export const concerts: Concert[] = [
 {
+    date: "2025-06-20",
+    venue: "Café Pasarela",
+    map: "https://maps.app.goo.gl/rdsP34NHBVaTWbJHA",
+    city: "Águilas, Murcia",
+    ticketsAvailable: false
+  },
+{
     name: "Fiesta Privada",
     date: "2025-05-04",
     map: "",
