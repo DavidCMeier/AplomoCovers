@@ -9,6 +9,14 @@ export interface Concert {
 }
 
 export const concerts: Concert[] = [
+
+{
+    date: "2025-03-01",
+    map: "https://maps.app.goo.gl/KQyXez3UhVv5BXSK8",
+    venue: "Alexandra Coffee",
+    city: "Olula del Río, Almería",
+    ticketsAvailable: false,
+  },
 {
     date: "2025-06-20",
     venue: "Café Pasarela",
