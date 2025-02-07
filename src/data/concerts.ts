@@ -40,10 +40,9 @@ export const concerts: Concert[] = [
     ticketsAvailable: false,
   },
   {
-    name: "Fiesta Privada",
     date: "2025-02-08",
-    map: "",
-    venue: "",
+    map: "https://maps.app.goo.gl/ktm74kkK88z4Vxcn6",
+    venue: "La oveja",
     city: "Albox, Almería",
     ticketsAvailable: false,
   },{
