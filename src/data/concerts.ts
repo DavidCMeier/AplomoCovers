@@ -10,6 +10,41 @@ export interface Concert {
 
 export const concerts: Concert[] = [
 {
+    date: "2025-03-08",
+    map: "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
+    venue: "Hola Ola",
+    city: "Mojacar, Almería",
+    ticketsAvailable: false,
+  },
+{
+    date: "2025-05-17",
+    map: "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
+    venue: "Hola Ola",
+    city: "Mojacar, Almería",
+    ticketsAvailable: false,
+  },
+{
+    date: "2025-10-04",
+    map: "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
+    venue: "Hola Ola",
+    city: "Mojacar, Almería",
+    ticketsAvailable: false,
+  },
+{
+    date: "2025-11-01",
+    map: "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
+    venue: "Hola Ola",
+    city: "Mojacar, Almería",
+    ticketsAvailable: false,
+  },
+{
+    date: "2026-01-17",
+    map: "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
+    venue: "Hola Ola",
+    city: "Mojacar, Almería",
+    ticketsAvailable: false,
+  },
+{
     name: "Fiesta Privada",
     date: "2025-05-31",
     map: "",
