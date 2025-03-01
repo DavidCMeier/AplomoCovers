@@ -9,6 +9,27 @@ export interface Concert {
 }
 
 export const concerts: Concert[] = [
+ {
+    date: "2025-12-20",
+    venue: "Heaven",
+    map: "https://maps.app.goo.gl/n6aYT56C79dC4TuR9",
+    city: "Albox, Almería",
+    ticketsAvailable: false,
+  },
+{
+    date: "2025-07-12",
+    map: "https://maps.app.goo.gl/qhw7Xppwttpbr7ES6",
+    venue: "La Estacion de Serón",
+    city: "Serón, Almería",
+    ticketsAvailable: false,
+  },
+{
+    date: "2025-06-28",
+    map: "https://maps.app.goo.gl/ktm74kkK88z4Vxcn6",
+    venue: "La oveja",
+    city: "Albox, Almería",
+    ticketsAvailable: false,
+  },
   {
     date: "2025-02-28",
     map: "https://maps.app.goo.gl/Cym3fPz5t9yNnYqi8",
