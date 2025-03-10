@@ -9,7 +9,13 @@ export interface Concert {
 }
 
 export const concerts: Concert[] = [
- {
+{
+    date: "2025-04-26",
+    venue: "Fiesta Privada",
+    map: "",
+    city: "Huercal Overa, Almería",
+    ticketsAvailable: false,
+  }, {
     date: "2025-12-20",
     venue: "Heaven",
     map: "https://maps.app.goo.gl/n6aYT56C79dC4TuR9",
