@@ -10,6 +10,13 @@ export interface Concert {
 
 export const concerts: Concert[] = [
  {
+    date: "2025-03-29",
+    map: "",
+    venue: "TBA",
+    city: "Albox, Almería",
+    ticketsAvailable: false,
+  },
+ {
     date: "2025-03-22",
     map: "https://maps.app.goo.gl/Cym3fPz5t9yNnYqi8",
     venue: "Pub Vayven",
