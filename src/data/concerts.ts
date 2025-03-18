@@ -11,10 +11,11 @@ export interface Concert {
 export const concerts: Concert[] = [
  {
     date: "2025-03-29",
-    map: "",
-    venue: "TBA",
+    map: "https://www.google.es/maps/place/Recinto+ferial,+04800+Albox,+Almería/@37.3908096,-2.1471888,19z/data=!4m6!3m5!1s0xd6549dc49b05e63:0x807bfcb84b03de4b!8m2!3d37.3907388!4d-2.1472253!16s%2Fg%2F11nmtpt_xr!4m14!1m7!3m6!1s0xd6549dc49b05e63:0x807bfcb84b03de4b!2sRecinto+ferial,+04800+Albox,+Almer%C3%ADa!8m2!3d37.3907388!4d-2.1472253!16s%2Fg%2F11nmtpt_xr!3m5!1s0xd6549dc49b05e63:0x807bfcb84b03de4b!8m2!3d37.3907388!4d-2.1472253!16s%2Fg%2F11",
+    name: "Trajin Fest",
+    venue: "Recinto Ferial",
     city: "Albox, Almería",
-    ticketsAvailable: false,
+    ticketsAvailable: true
   },
  {
     date: "2025-03-22",
