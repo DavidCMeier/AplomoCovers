@@ -15,7 +15,8 @@ export const concerts: Concert[] = [
     name: "Trajin Fest",
     venue: "Recinto Ferial",
     city: "Albox, Almería",
-    ticketsAvailable: true
+    ticketsAvailable: true,
+    ticketLink: "https://www.instagram.com/p/DHTLDMYIyaG/?igsh=NGdwc3RpNnAwamU1"
   },
  {
     date: "2025-03-22",
