@@ -187,7 +187,7 @@ export const concerts: Concert[] = [
   },
   {
     date: "2025-04-12",
-    name: "Concierto Solidario",
+    name: "40 aniversario Banda de Macael",
     venue: "El Vaticano, Carpa municipal",
     map: "https://maps.app.goo.gl/McHb7LTWBshmFJFU8",
     city: "Macael, Almería",
