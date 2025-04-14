@@ -39,6 +39,14 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-05-02",
+    "name": "Fiesta de la santa cruz",
+    "map": "https://maps.app.goo.gl/JbdEqPt2yJKdcptQ7",
+    "venue": "Fuencaliente",
+    "city": "Serón, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-05-04",
     "name": "Fiesta Privada",
     "map": "",
