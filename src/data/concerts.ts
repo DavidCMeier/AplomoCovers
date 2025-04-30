@@ -77,6 +77,13 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-07-10",
+    "venue": "Valdani",
+    "map": "https://maps.app.goo.gl/zrPew4xTMMtr3yiB6",
+    "city": "Albox, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-07-12",
     "map": "https://maps.app.goo.gl/qhw7Xppwttpbr7ES6",
     "venue": "La Estacion de Serón",
@@ -91,6 +98,14 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-09-20",
+    "name": "Fiesta Privada",
+    "map": "",
+    "venue": "",
+    "city": " ",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-10-04",
     "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
     "venue": "Hola Ola",
@@ -102,6 +117,13 @@ export const concerts: Concert[] = [
     "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
     "venue": "Hola Ola",
     "city": "Mojacar, Almería",
+    "ticketsAvailable": false
+  },
+  {
+    "date": "2025-12-05",
+    "venue": "Alexandra Coffee",
+    "map": "https://maps.app.goo.gl/fPAaUcuk8gakRQ4FA",
+    "city": "Olula del Río, Almería",
     "ticketsAvailable": false
   },
   {
