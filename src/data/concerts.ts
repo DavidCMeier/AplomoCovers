@@ -113,6 +113,14 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-09-27",
+    "name": "Vera cafetería PRALEX heladeros artesanos",
+    "venue": "Recinto Ferial",
+    "map": "https://maps.app.goo.gl/d9NVjWxKYJ4hpMAP7",
+    "city": "Vera, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-10-04",
     "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
     "venue": "Hola Ola",
