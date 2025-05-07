@@ -70,6 +70,13 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-06-14",
+    "venue": "Maui Gastro y Port Garrucha",
+    "map": "https://maps.app.goo.gl/MgHM8LgzTnvMZUB28",
+    "city": "Garrucha, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-06-20",
     "venue": "Café Pasarela",
     "map": "https://maps.app.goo.gl/rdsP34NHBVaTWbJHA",
