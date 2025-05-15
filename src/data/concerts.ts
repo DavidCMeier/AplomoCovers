@@ -84,6 +84,13 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-06-28",
+    "venue": "Pub Principal",
+    "map": "https://maps.app.goo.gl/8KpjbcTjo9ttzzyk6",
+    "city": "Tíjola, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-07-10",
     "venue": "Valdani",
     "map": "https://maps.app.goo.gl/zrPew4xTMMtr3yiB6",
