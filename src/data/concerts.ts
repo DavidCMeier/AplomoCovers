@@ -105,6 +105,13 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-07-19",
+    "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
+    "venue": "Hola Ola",
+    "city": "Mojacar, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-08-14",
     "map": "https://maps.app.goo.gl/7LkNMPYrBrZ2Qf1U6",
     "venue": "Cafe Pub Jardín",
