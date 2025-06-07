@@ -10,77 +10,10 @@ export interface Concert {
 
 export const concerts: Concert[] = [
   {
-    "date": "2025-04-12",
-    "name": "40 aniversario Banda de Macael",
-    "venue": "El Vaticano, Carpa municipal",
-    "map": "https://maps.app.goo.gl/McHb7LTWBshmFJFU8",
-    "city": "Macael, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-04-17",
-    "venue": "Heaven",
-    "map": "https://maps.app.goo.gl/n6aYT56C79dC4TuR9",
-    "city": "Albox, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-04-18",
-    "venue": "Maui Gastro y Port Garrucha",
-    "map": "https://maps.app.goo.gl/MgHM8LgzTnvMZUB28",
-    "city": "Garrucha, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-04-26",
-    "venue": "Fiesta Privada",
-    "map": "",
-    "city": "Huercal Overa, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-05-02",
-    "name": "Fiesta de la santa cruz",
-    "map": "https://maps.app.goo.gl/JbdEqPt2yJKdcptQ7",
-    "venue": "Fuencaliente",
-    "city": "Serón, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-05-04",
-    "name": "Fiesta Privada",
-    "map": "",
-    "venue": "",
-    "city": "Olula del Río, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-05-17",
-    "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
-    "venue": "Hola Ola",
-    "city": "Mojacar, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-05-31",
-    "name": "Fiesta Privada",
-    "map": "",
-    "venue": "",
-    "city": " ",
-    "ticketsAvailable": false
-  },
-  {
     "date": "2025-06-14",
     "venue": "Maui Gastro y Port Garrucha",
     "map": "https://maps.app.goo.gl/MgHM8LgzTnvMZUB28",
     "city": "Garrucha, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-06-20",
-    "venue": "Café Pasarela",
-    "map": "https://maps.app.goo.gl/rdsP34NHBVaTWbJHA",
-    "city": "Águilas, Murcia",
     "ticketsAvailable": false
   },
   {
@@ -119,6 +52,14 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-08-13",
+    "name": "Lijar Music Festival",
+    "map": "https://maps.app.goo.gl/D4TDvvvNii4Z7h7x8",
+    "venue": "La plaza de la Paz",
+    "city": "Lijar, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-08-14",
     "map": "https://maps.app.goo.gl/7LkNMPYrBrZ2Qf1U6",
     "venue": "Cafe Pub Jardín",
@@ -153,6 +94,14 @@ export const concerts: Concert[] = [
     "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
     "venue": "Hola Ola",
     "city": "Mojacar, Almería",
+    "ticketsAvailable": false
+  },
+  {
+    "date": "2025-11-03",
+    "name": "Feria de Albox", 
+    "map": "https://maps.app.goo.gl/yZVPuPV36ZV1RNKJ6",
+    "venue": "Recinto Ferial",
+    "city": "Albox, Almería",
     "ticketsAvailable": false
   },
   {
