@@ -29,6 +29,13 @@ export const concerts: Concert[] = [
     "map": "https://maps.app.goo.gl/8KpjbcTjo9ttzzyk6",
     "city": "Tíjola, Almería",
     "ticketsAvailable": false
+  }, 
+  {
+    "date": "2025-07-05",
+    "venue": "Mammu Cafe",
+    "map": "https://maps.app.goo.gl/6D9GN9my1aWQNQf88",
+    "city": "Macael, Almería",
+    "ticketsAvailable": false
   },
   {
     "date": "2025-07-10",
@@ -42,6 +49,13 @@ export const concerts: Concert[] = [
     "map": "https://maps.app.goo.gl/qhw7Xppwttpbr7ES6",
     "venue": "La Estacion de Serón",
     "city": "Serón, Almería",
+    "ticketsAvailable": false
+  },
+  {
+    "date": "2025-07-17",
+    "venue": "Plaza Almería",
+    "map": "https://maps.app.goo.gl/Cw1yUMB3ZYQgLGmC9",
+    "city": "Macael, Almería",
     "ticketsAvailable": false
   },
   {
