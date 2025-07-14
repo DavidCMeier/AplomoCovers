@@ -10,13 +10,6 @@ export interface Concert {
 
 export const concerts: Concert[] = [
   {
-    "date": "2025-06-14",
-    "venue": "Maui Gastro y Port Garrucha",
-    "map": "https://maps.app.goo.gl/MgHM8LgzTnvMZUB28",
-    "city": "Garrucha, Almería",
-    "ticketsAvailable": false
-  },
-  {
     "date": "2025-06-21",
     "venue": "Balsa de Cela",
     "map": "https://maps.app.goo.gl/pNdVT9SrsJH4gRHd6",
@@ -49,13 +42,6 @@ export const concerts: Concert[] = [
     "map": "https://maps.app.goo.gl/qhw7Xppwttpbr7ES6",
     "venue": "La Estacion de Serón",
     "city": "Serón, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-07-17",
-    "venue": "Plaza Almería",
-    "map": "https://maps.app.goo.gl/Cw1yUMB3ZYQgLGmC9",
-    "city": "Macael, Almería",
     "ticketsAvailable": false
   },
   {
