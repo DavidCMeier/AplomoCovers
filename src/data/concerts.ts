@@ -52,6 +52,13 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-08-08",
+    "venue": "Pub Principal",
+    "map": "https://maps.app.goo.gl/8KpjbcTjo9ttzzyk6",
+    "city": "Tíjola, Almería",
+    "ticketsAvailable": false
+  }, 
+  {
     "date": "2025-08-13",
     "name": "Lijar Music Festival",
     "map": "https://maps.app.goo.gl/D4TDvvvNii4Z7h7x8",
@@ -64,6 +71,13 @@ export const concerts: Concert[] = [
     "map": "https://maps.app.goo.gl/7LkNMPYrBrZ2Qf1U6",
     "venue": "Cafe Pub Jardín",
     "city": "Serón, Almería",
+    "ticketsAvailable": false
+  },
+  {
+    "date": "2025-08-16",
+    "map": "https://maps.app.goo.gl/m8QYZVNhYrjehdB4A",
+    "venue": "Fiestas de Oria",
+    "city": "Oria, Almería",
     "ticketsAvailable": false
   },
   {
@@ -90,6 +104,13 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-10-31",
+    "map": "https://maps.app.goo.gl/7XNsaT4mGcFnUcq19",
+    "venue": "Plaza de almería",
+    "city": "Macael, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-11-01",
     "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
     "venue": "Hola Ola",
@@ -109,13 +130,6 @@ export const concerts: Concert[] = [
     "venue": "Alexandra Coffee",
     "map": "https://maps.app.goo.gl/fPAaUcuk8gakRQ4FA",
     "city": "Olula del Río, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-12-20",
-    "venue": "Heaven",
-    "map": "https://maps.app.goo.gl/n6aYT56C79dC4TuR9",
-    "city": "Albox, Almería",
     "ticketsAvailable": false
   },
   {
