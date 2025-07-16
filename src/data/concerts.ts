@@ -75,8 +75,9 @@ export const concerts: Concert[] = [
   },
   {
     "date": "2025-08-16",
-    "map": "https://maps.app.goo.gl/m8QYZVNhYrjehdB4A",
-    "venue": "Fiestas de Oria",
+    "map": "https://maps.app.goo.gl/571N9sJ4LJVnySx19",
+    "name": "Noche en Blanco",
+    "venue": "Plaza de la Constitución",
     "city": "Oria, Almería",
     "ticketsAvailable": false
   },
@@ -106,7 +107,7 @@ export const concerts: Concert[] = [
   {
     "date": "2025-10-31",
     "map": "https://maps.app.goo.gl/7XNsaT4mGcFnUcq19",
-    "venue": "Plaza de almería",
+    "venue": "Plaza de Almería",
     "city": "Macael, Almería",
     "ticketsAvailable": false
   },
