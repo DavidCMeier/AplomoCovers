@@ -51,6 +51,13 @@ export const concerts: Concert[] = [
     "city": "Mojacar, Almería",
     "ticketsAvailable": false
   },
+    {
+    "date": "2025-07-26",
+    "map": "https://maps.app.goo.gl/eiibErJzZTYW6cRs7",
+    "venue": "Restaurante Manantial de Cela",
+    "city": "Lúcar, Almería",
+    "ticketsAvailable": false
+  },
   {
     "date": "2025-08-08",
     "venue": "Pub Principal",
