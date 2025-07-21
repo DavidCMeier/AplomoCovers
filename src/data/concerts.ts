@@ -10,55 +10,6 @@ export interface Concert {
 
 export const concerts: Concert[] = [
   {
-    "date": "2025-06-21",
-    "venue": "Balsa de Cela",
-    "map": "https://maps.app.goo.gl/pNdVT9SrsJH4gRHd6",
-    "city": "Lucar, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-06-28",
-    "venue": "Pub Principal",
-    "map": "https://maps.app.goo.gl/8KpjbcTjo9ttzzyk6",
-    "city": "Tíjola, Almería",
-    "ticketsAvailable": false
-  }, 
-  {
-    "date": "2025-07-05",
-    "venue": "Mammu Cafe",
-    "map": "https://maps.app.goo.gl/6D9GN9my1aWQNQf88",
-    "city": "Macael, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-07-10",
-    "venue": "Valdani",
-    "map": "https://maps.app.goo.gl/zrPew4xTMMtr3yiB6",
-    "city": "Albox, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-07-12",
-    "map": "https://maps.app.goo.gl/qhw7Xppwttpbr7ES6",
-    "venue": "La Estacion de Serón",
-    "city": "Serón, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-07-19",
-    "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
-    "venue": "Hola Ola",
-    "city": "Mojacar, Almería",
-    "ticketsAvailable": false
-  },
-    {
-    "date": "2025-07-26",
-    "map": "https://maps.app.goo.gl/eiibErJzZTYW6cRs7",
-    "venue": "Restaurante Manantial de Cela",
-    "city": "Lúcar, Almería",
-    "ticketsAvailable": false
-  },
-  {
     "date": "2025-08-08",
     "venue": "Pub Principal",
     "map": "https://maps.app.goo.gl/8KpjbcTjo9ttzzyk6",
