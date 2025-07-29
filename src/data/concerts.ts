@@ -100,6 +100,20 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-12-13",
+    "venue": "Rony Cafe",
+    "map": "https://maps.app.goo.gl/5GA5fNngx1BUACteA",
+    "city": "Albox, Almería",
+    "ticketsAvailable": false
+  },
+  {
+    "date": "2026-01-03",
+    "map": "https://maps.app.goo.gl/YufNmBTGA54pK9CE7",
+    "venue": "Heaven",
+    "city": "Albox, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2026-01-17",
     "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
     "venue": "Hola Ola",
