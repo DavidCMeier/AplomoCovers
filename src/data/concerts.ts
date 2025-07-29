@@ -40,6 +40,14 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-09-09",
+    "name": "Feria de Baza",
+    "map": "https://maps.app.goo.gl/TA8LrsDKTsn3HbFs5",
+    "venue": "Plaza Mayor",
+    "city": "Baza, Granada",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-09-20",
     "name": "Fiesta Privada",
     "map": "",
