@@ -40,6 +40,13 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-08-30",
+    "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
+    "venue": "Hola Ola",
+    "city": "Mojacar, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-09-09",
     "name": "Feria de Baza",
     "map": "https://maps.app.goo.gl/TA8LrsDKTsn3HbFs5",
@@ -68,6 +75,13 @@ export const concerts: Concert[] = [
     "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
     "venue": "Hola Ola",
     "city": "Mojacar, Almería",
+    "ticketsAvailable": false
+  },
+  {
+    "date": "2025-10-05",
+    "map": "https://maps.app.goo.gl/MjNucvRwLMTgSNay9",
+    "venue": "Mammu Cafe",
+    "city": "Macael, Almería",
     "ticketsAvailable": false
   },
   {
