@@ -55,6 +55,13 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-09-13",
+    "venue": "Maui Gastro y Port",
+    "map": "https://maps.app.goo.gl/nJXxQdgiZf717PNs9",
+    "city": "Garrucha, Almería",
+    "ticketsAvailable": false
+  }, 
+  {
     "date": "2025-09-20",
     "name": "Fiesta Privada",
     "map": "",
@@ -107,6 +114,13 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-11-23",
+    "map": "https://maps.app.goo.gl/d6stGYvGAmYVTVt66",
+    "venue": "La Bella Dorita",
+    "city": "Cuevas de Almanzora, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-12-05",
     "venue": "Alexandra Coffee",
     "map": "https://maps.app.goo.gl/fPAaUcuk8gakRQ4FA",
@@ -127,11 +141,26 @@ export const concerts: Concert[] = [
     "city": "Albox, Almería",
     "ticketsAvailable": false
   },
+    {
+    "date": "2026-01-04",
+    "map": "https://maps.app.goo.gl/d6stGYvGAmYVTVt66",
+    "venue": "La Bella Dorita",
+    "city": "Cuevas de Almanzora, Almería",
+    "ticketsAvailable": false
+  },
   {
     "date": "2026-01-17",
     "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
     "venue": "Hola Ola",
     "city": "Mojacar, Almería",
+    "ticketsAvailable": false
+  },
+    {
+    "date": "2025-07-04",
+    "map": "https://maps.app.goo.gl/1mjkA5NFM1A22XCp6",
+    "name" "La feria del jamón"
+    "venue": "Café Pub Jardin",
+    "city": "Serón, Almería",
     "ticketsAvailable": false
   }
 ];
