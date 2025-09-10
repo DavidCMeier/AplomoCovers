@@ -91,6 +91,13 @@ export const concerts: Concert[] = [
     "city": "Macael, Almería",
     "ticketsAvailable": false
   },
+    {
+    "date": "2025-10-11",
+    "venue": "Maui Gastro y Port",
+    "map": "https://maps.app.goo.gl/nJXxQdgiZf717PNs9",
+    "city": "Garrucha, Almería",
+    "ticketsAvailable": false
+  }, 
   {
     "date": "2025-10-31",
     "map": "https://maps.app.goo.gl/7XNsaT4mGcFnUcq19",
