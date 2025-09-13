@@ -165,7 +165,7 @@ export const concerts: Concert[] = [
     {
     "date": "2025-07-04",
     "map": "https://maps.app.goo.gl/1mjkA5NFM1A22XCp6",
-    "name" "La feria del jamón"
+    "name": "La feria del jamón",
     "venue": "Café Pub Jardin",
     "city": "Serón, Almería",
     "ticketsAvailable": false
