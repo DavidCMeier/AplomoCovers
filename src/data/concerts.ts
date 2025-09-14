@@ -70,6 +70,14 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-09-20",
+    "name": "Feria Olula",
+    "map": "https://maps.app.goo.gl/zkz3GesVavf2GcF29?g_st=ipc"
+    "venue": "Pub La Jaima y Zingara Gastrobar",
+    "city": "Olula del Rio, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-09-27",
     "name": "Vera cafetería PRALEX heladeros artesanos",
     "venue": "Recinto Ferial",
