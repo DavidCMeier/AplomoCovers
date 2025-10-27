@@ -10,103 +10,6 @@ export interface Concert {
 
 export const concerts: Concert[] = [
   {
-    "date": "2025-08-08",
-    "venue": "Pub Principal",
-    "map": "https://maps.app.goo.gl/8KpjbcTjo9ttzzyk6",
-    "city": "Tíjola, Almería",
-    "ticketsAvailable": false
-  }, 
-  {
-    "date": "2025-08-13",
-    "name": "Lijar Music Festival",
-    "map": "https://maps.app.goo.gl/D4TDvvvNii4Z7h7x8",
-    "venue": "La plaza de la Paz",
-    "city": "Lijar, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-08-14",
-    "map": "https://maps.app.goo.gl/7LkNMPYrBrZ2Qf1U6",
-    "venue": "Cafe Pub Jardín",
-    "city": "Serón, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-08-16",
-    "map": "https://maps.app.goo.gl/571N9sJ4LJVnySx19",
-    "name": "Noche en Blanco",
-    "venue": "Plaza de la Constitución",
-    "city": "Oria, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-08-30",
-    "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
-    "venue": "Hola Ola",
-    "city": "Mojacar, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-09-09",
-    "name": "Feria de Baza",
-    "map": "https://maps.app.goo.gl/TA8LrsDKTsn3HbFs5",
-    "venue": "Plaza Mayor",
-    "city": "Baza, Granada",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-09-13",
-    "venue": "Maui Gastro y Port",
-    "map": "https://maps.app.goo.gl/nJXxQdgiZf717PNs9",
-    "city": "Garrucha, Almería",
-    "ticketsAvailable": false
-  }, 
-  {
-    "date": "2025-09-20",
-    "name": "Fiesta Privada",
-    "map": "",
-    "venue": "",
-    "city": " ",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-09-20",
-    "name": "Feria Olula",
-    "map": "https://maps.app.goo.gl/zkz3GesVavf2GcF29?g_st=ipc",
-    "venue": "Pub La Jaima y Zingara Gastrobar",
-    "city": "Olula del Rio, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-09-27",
-    "name": "Vera cafetería PRALEX heladeros artesanos",
-    "venue": "Recinto Ferial",
-    "map": "https://maps.app.goo.gl/d9NVjWxKYJ4hpMAP7",
-    "city": "Vera, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-10-04",
-    "map": "https://maps.app.goo.gl/EtKfp5oECJDcH1EM8",
-    "venue": "Hola Ola",
-    "city": "Mojacar, Almería",
-    "ticketsAvailable": false
-  },
-  {
-    "date": "2025-10-05",
-    "map": "https://maps.app.goo.gl/MjNucvRwLMTgSNay9",
-    "venue": "Mammu Cafe",
-    "city": "Macael, Almería",
-    "ticketsAvailable": false
-  },
-    {
-    "date": "2025-10-11",
-    "venue": "Maui Gastro y Port",
-    "map": "https://maps.app.goo.gl/nJXxQdgiZf717PNs9",
-    "city": "Garrucha, Almería",
-    "ticketsAvailable": false
-  }, 
-  {
     "date": "2025-10-31",
     "map": "https://maps.app.goo.gl/7XNsaT4mGcFnUcq19",
     "venue": "Plaza de Almería",
@@ -128,6 +31,21 @@ export const concerts: Concert[] = [
     "city": "Albox, Almería",
     "ticketsAvailable": false
   },
+    {
+    "date": "2025-11-08",
+    "name": "Fiesta del Otoño", 
+    "map": "https://maps.app.goo.gl/7XNsaT4mGcFnUcq19",
+    "venue": "Plaza de Almería",
+    "city": "Macael, Almería",
+    "ticketsAvailable": false
+  },
+    {
+    "date": "2025-11-22",
+    "map": "https://maps.app.goo.gl/ytGxdUhboe5Wia4R6",
+    "venue": "The Aguilón",
+    "city": "San Juan de los Terreros, Almería",
+    "ticketsAvailable": false
+  },
   {
     "date": "2025-11-23",
     "map": "https://maps.app.goo.gl/d6stGYvGAmYVTVt66",
@@ -140,6 +58,20 @@ export const concerts: Concert[] = [
     "venue": "Alexandra Coffee",
     "map": "https://maps.app.goo.gl/fPAaUcuk8gakRQ4FA",
     "city": "Olula del Río, Almería",
+    "ticketsAvailable": false
+  },
+  {
+    "date": "2025-12-06",
+    "venue": "Pub Escorpio",
+    "map": "https://maps.app.goo.gl/my2DhppH5fFSAr866",
+    "city": "Antas, Almería",
+    "ticketsAvailable": false
+  },
+  {
+    "date": "2025-12-07",
+    "venue": "Oveja Albox",
+    "map": "https://maps.app.goo.gl/QpiJfUfcc9GksLCu6",
+    "city": "Albox, Almería",
     "ticketsAvailable": false
   },
   {
@@ -156,11 +88,19 @@ export const concerts: Concert[] = [
     "city": "Albox, Almería",
     "ticketsAvailable": false
   },
-    {
+  {
     "date": "2026-01-04",
     "map": "https://maps.app.goo.gl/d6stGYvGAmYVTVt66",
     "venue": "La Bella Dorita",
     "city": "Cuevas de Almanzora, Almería",
+    "ticketsAvailable": false
+  },
+  {
+    "date": "2026-01-10",
+    "map": "https://maps.app.goo.gl/3YzavV6iuYuyLA459",
+    "name": "Fiesta de las carretillas",
+    "venue": "Cantoria",
+    "city": "Cantoria, Almería",
     "ticketsAvailable": false
   },
   {
@@ -170,7 +110,15 @@ export const concerts: Concert[] = [
     "city": "Mojacar, Almería",
     "ticketsAvailable": false
   },
-    {
+  {
+    "date": "2026-02-07",
+    "map": "https://maps.app.goo.gl/HKB4sz5MEysAEtu47",
+    "name": "Restaurante el Secreto 10º Aniversario",
+    "venue": "Restaurante el Secreto",
+    "city": "Tíjola, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-07-04",
     "map": "https://maps.app.goo.gl/1mjkA5NFM1A22XCp6",
     "name": "La feria del jamón",
