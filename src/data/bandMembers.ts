@@ -19,7 +19,7 @@ export const bandMembers: BandMember[] = [
     image: "/images/guitarist.jpg"
   },
   {
-    name: "Neuva Sorpresa",
+    name: "Nueva Sorpresa",
     role: "¿¿??",
     description: "el 31 de Octubre de 2025 recibiréis una nueva sorpresa",
     image: "/images/sorpresa.jpg"
