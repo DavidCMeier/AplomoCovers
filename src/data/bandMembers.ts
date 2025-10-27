@@ -19,6 +19,12 @@ export const bandMembers: BandMember[] = [
     image: "/images/guitarist.jpg"
   },
   {
+    name: "Neuva Sorpresa",
+    role: "¿¿??",
+    description: "el 31 de Octubre de 2025 recibiréis una nueva sorpresa",
+    image: "/images/sorpresa.jpg"
+  },
+  {
     name: "David Meier",
     role: "Bajista",
     description: "David Meier, nuestro talentoso bajista, se unió al grupo en 2023, trayendo consigo una vasta experiencia y una conexión profunda con la música. Con solo verlo tocar, queda claro que su habilidad y dominio del instrumento vienen de años de dedicación. David también es miembro de “Ada's trio Jazz band”, “Demure” y forma parte de la Big Band MA de Fines, mostrando su versatilidad como músico. Su amor por la variedad musical lo lleva a explorar distintos géneros y, además del bajo, sabe pillar la guitarra y hacerla sonar con la misma pasión y destreza.",
