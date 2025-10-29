@@ -19,10 +19,10 @@ export const bandMembers: BandMember[] = [
     image: "/images/guitarist.jpg"
   },
   {
-    name: "Nueva Sorpresa",
-    role: "¿¿??",
-    description: "El 31 de Octubre de 2025 recibiréis una nueva sorpresa",
-    image: "/images/sorpresa.jpg"
+    name: "Alvaro Castilla",
+    role: "Guitarrista",
+    description: "Álvaro Castilla es un guitarrista de Granada, España. Comenzó a tocar la guitarra a los 15 años, explorando estilos como el flamenco, el rock, el blues y el metal antes de encontrar su verdadera vocación en la música heavy moderna. A lo largo de los años, su dedicación al sonido, la versatilidad y la expresión emocional han definido su estilo distintivo. Actualmente, ha grabado 4 discos en estudio con Heleven, y participa en proyectos como productor con otros artistas. Es también guitarrista de la banda almeriense Anhedonia. Álvaro es artista oficial de Aristides, Orange Amps, Fortin Amplification, Bareknuckle Pickups y Optima Strings.",
+    image: "/images/guitarist_alvaro.jpeg"
   },
   {
     name: "David Meier",
