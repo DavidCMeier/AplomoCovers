@@ -31,7 +31,7 @@ export const concerts: Concert[] = [
     "city": "Albox, Almería",
     "ticketsAvailable": false
   },
-    {
+  {
     "date": "2025-11-08",
     "name": "Fiesta del Otoño", 
     "map": "https://maps.app.goo.gl/7XNsaT4mGcFnUcq19",
@@ -39,7 +39,13 @@ export const concerts: Concert[] = [
     "city": "Macael, Almería",
     "ticketsAvailable": false
   },
-    {
+  {
+    "date": "2025-11-09",
+    "venue": "Fiesta Privada",
+    "city": "Macael, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2025-11-22",
     "map": "https://maps.app.goo.gl/ytGxdUhboe5Wia4R6",
     "venue": "The Aguilón",
@@ -82,6 +88,13 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
+    "date": "2025-12-20",
+    "venue": "Hotel-Restaurante Jardines la Tejera",
+    "map": "https://maps.app.goo.gl/97kz5kqfRo521mFS7",
+    "city": "Olula del Río, Almería",
+    "ticketsAvailable": false
+  },
+  {
     "date": "2026-01-03",
     "map": "https://maps.app.goo.gl/YufNmBTGA54pK9CE7",
     "venue": "Heaven",
@@ -116,6 +129,12 @@ export const concerts: Concert[] = [
     "name": "Restaurante el Secreto 10º Aniversario",
     "venue": "Restaurante el Secreto",
     "city": "Tíjola, Almería",
+    "ticketsAvailable": false
+  },
+  {
+    "date": "2026-05-30",
+    "venue": "Fiesta privada",
+    "city": "Almería",
     "ticketsAvailable": false
   },
   {
