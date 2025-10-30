@@ -138,7 +138,7 @@ export const concerts: Concert[] = [
     "ticketsAvailable": false
   },
   {
-    "date": "2025-07-04",
+    "date": "2026-07-04",
     "map": "https://maps.app.goo.gl/1mjkA5NFM1A22XCp6",
     "name": "La feria del jamón",
     "venue": "Café Pub Jardin",
